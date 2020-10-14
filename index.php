@@ -87,8 +87,6 @@
 
   </footer>
   <!-- Footer -->
-
-<script src="./assets/js/global.js"></script>
 </body>
 </html>
 
@@ -96,9 +94,6 @@
 <?php
 session_start();
 if(isset($_SESSION[`name`])){
-//	echo "<script type='text/javascript'>window.location.href = 'home.php';</script>";
-header('Location: ./home.php');
-
+  header('Location: ./home.php');
 }
-//else header('Location: ./index.php');
 ?>

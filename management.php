@@ -33,7 +33,6 @@ if($statement)
 $statement->execute();
 $statement->store_result();
 if ($statement->num_rows > 0) {
-                          //set session
 						session_start();
 						 $_SESSION[`name`] = $user;
 						 header('Location: ./home.php');
@@ -41,7 +40,7 @@ if ($statement->num_rows > 0) {
 
 
    } else {
-			   echo 'Error logged in, The username or the password is not correct, Try again please';
+			   echo 'There is an issue, The username or the password is not correct, Try again please';
 			   echo '<a href="login.php"><h2> Return </h2></a>';
   }
 

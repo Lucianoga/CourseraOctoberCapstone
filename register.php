@@ -21,6 +21,14 @@ if($_POST['newpass']!=$_POST['cnewpass']){
     echo '<a href="signup.php"><h2> Return </h2></a>';
     exit();
 }
+if (!preg_match('/[\'^£$!%&*()}{@#~?><>,|=_+¬-]/', $_POST['newpass']))
+{
+    // one or more of the 'special characters' found in $string
+    echo"The password does not contain special characters";
+    echo '<a href="signup.php"><h2> Return </h2></a>';
+    exit();
+}
+
 //sanitize
 
 $newuser=filter_var($_POST['newuser'],FILTER_SANITIZE_STRING);
@@ -62,7 +70,7 @@ if ($conn->connect_error) {
                 header('Location: ./followingstep.php');
                   exit;
  } 
-	else{ if(empty($newpass)) //check if the user do not  fill in a password
+	else{ if(empty($newpass))
 			{	echo"Please enter a password";
 			    echo '<a href="signup.php"><h2> Return </h2></a>';
 			}

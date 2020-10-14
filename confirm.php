@@ -51,15 +51,12 @@
 
   </footer>
   <!-- Footer -->
-
-<script src="./assets/js/global.js"></script>
 </body>
 </html>
 
 <?php
 session_start();
 if($_SESSION[`name`]==null){
-//	echo "<script type='text/javascript'>window.location.href = 'login.php';</script>";
      header('Location: ./login.php');
 
 }

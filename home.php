@@ -61,7 +61,6 @@
   </footer>
   <!-- Footer -->
 
-<script src="./assets/js/global.js"></script>
 </body>
 </html>
 
@@ -72,8 +71,6 @@ session_start();
 if(!isset($_SESSION[`name`]))
 {
 	header('Location: ./login.php');
-	
 }
-
 ?>
 

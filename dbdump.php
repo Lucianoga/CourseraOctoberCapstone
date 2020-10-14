@@ -10,6 +10,7 @@
 <body>
 <center><h1>Database Dump</h1></center>
 
- <p><a href="https://www.gavoniluciano.com/coursera/SQLDUMP.sql"><h2>Click here to download the database </h2></a> </p>
+ <p><center><a href="https://www.gavoniluciano.com/coursera/SQLDUMP.sql">
+<h2>Click here to download the database </h2></a> </center></p>
  </body>
  </html>
