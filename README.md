@@ -10,7 +10,7 @@ The app is made of:
 
 I chose to use some OpenSSL functions which allow me to encrypt the message with AES256 in CBC mode.
 Specifically,
-- it'scompatible with other AES implementations, but not mcrypt, since mcrypt uses PKCS#5 instead of PKCS#7.
+- it's compatible with other AES implementations, but not mcrypt, since mcrypt uses PKCS#5 instead of PKCS#7.
 - generates a key from the provided password using SHA256
 - generates a hmac hash of the encrypted data for integrity check
 - generates a random IV for each message
