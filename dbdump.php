@@ -8,7 +8,7 @@
     <link rel='stylesheet' href='css/style.css' />
 </HEAD>
 <body>
-<pre><h1>                                Database Dumb</h1></pre>
+<center><h1>Database Dump</h1></center>
 
  <p><a href="https://www.gavoniluciano.com/coursera/SQLDUMP.sql"><h2>Click here to download the database </h2></a> </p>
  </body>
