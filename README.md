@@ -2,7 +2,7 @@
 
 The project consists of a chat web-based app in which every message has been encrypted.
 The app is made of:
-  - HTML - CSS - Jquery
+  - HTML - CSS - Javascript
   - PHP
   - Maria DB
 
@@ -17,3 +17,5 @@ Specifically,
 - prepends the IV (16 bytes) and the hash (32 bytes) to the ciphertext
 
 You can find my deploy  [here](https://www.gavoniluciano.com/coursera/index.php).
+
+Dump by DB [here](https://www.gavoniluciano.com/coursera/dbdump.php).
